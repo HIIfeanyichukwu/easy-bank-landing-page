@@ -1,7 +1,5 @@
-import { useState } from 'react'
 import './App.css'
 import NavBar from './components/NavBar'
-import styled from 'styled-components'
 import Intro from './components/Intro'
 import Mid from './components/Mid'
 import Outro from './components/Outro'

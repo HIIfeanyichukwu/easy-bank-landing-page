@@ -58,6 +58,7 @@ const Nav = styled.nav`
     top: 0;
     color: hsl(233, 8%, 62%);
     transition: all .2s;
+    box-shadow: 2px 100px 50px 50px rgba(0, 0, 0, 0.2);
 
 
     li + li {
