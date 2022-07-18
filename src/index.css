@@ -1,0 +1,22 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Public Sans", sans-serif;
+}
+
+html {
+  background-color: hsl(0, 0%, 98%);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  font-weight: 700;
+  display: block;
+  position: relative;
+
+}
+
