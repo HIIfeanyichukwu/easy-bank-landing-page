@@ -18,3 +18,7 @@ footer {
   padding-block: 3rem;
 }
 
+main {
+  overflow-x: hidden;
+  position: relative;
+}

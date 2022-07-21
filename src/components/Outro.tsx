@@ -23,11 +23,35 @@ const Article = styled.article`
     & + & {
         margin-block-start: 2rem;
     }
+
+    @media (min-width: 768px) {
+        & + & {
+            margin-block-start: 0;
+        }
+    }
 `
 
 const Container = styled.div`
     inline-size: 90%;
     margin: 0 auto;
+
+    @media (min-width: 768px) {
+        .container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1rem;
+        }
+    }
+
+    @media (min-width: 1280px) {
+        inline-size: 80%;
+    }
+
+    @media (min-width: 1300px) {
+        .container {
+            display: flex;
+        }
+    }
 `
 
 const Section = styled.section`

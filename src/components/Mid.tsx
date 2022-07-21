@@ -17,6 +17,29 @@ const Section = styled.section`
         text-align: center;
         margin: 0 auto;
     }
+
+    @media (min-width: 768px) {
+        .container section {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1rem;
+        }
+    }
+
+
+    @media (min-width: 1280px) {
+        .container {
+            inline-size: 80%;
+        }
+
+    }
+
+    @media (min-width: 1300px) {
+        .container section {
+            display: flex;
+            text-align: left;
+        }
+    }
 `
 
 const Article = styled.article`
@@ -31,7 +54,7 @@ const Mid = () => {
             <H2>
                 Why choose Easybank?
             </H2>
-            <P>
+            <P className='mid'>
                 We leverage Open Banking to turn your bank account into your financial hub. Control your finances like never before.
             </P>
 

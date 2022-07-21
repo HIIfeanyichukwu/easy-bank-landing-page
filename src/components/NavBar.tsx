@@ -74,6 +74,7 @@ const Nav = styled.nav`
         opacity: 1;
         visibility: visible;
         z-index: 1000;
+        box-shadow: none;
 
         a {
             padding-block: 1rem;

@@ -8,6 +8,19 @@ import {P} from './components'
 
 const Container = styled.div`
   padding-block-end: 5rem;
+
+
+ @media (min-width: 1280px) {
+  display: flex;
+  justify-content: start;
+  padding-block: 5rem 5rem;
+  position: relative;
+
+ }
+
+ @media (min-width: 1440px) {
+  padding-block: 7rem 7rem;
+ }
   
 `
 
@@ -26,6 +39,33 @@ const Figure = styled.figure`
     inline-size: 95%;
     margin-block-start: -33.5%;
   }
+
+
+  @media (min-width: 1280px) {
+    position: absolute;
+    right: 0;
+    top: 0;
+    inline-size: 50%;
+    block-size: 100%;
+
+    background-image: url(${bg});
+    background-position: 5% 75%;
+    background-size: 160%;
+
+    padding-block: 5rem;
+
+    img {
+      inline-size: 100%;
+      /* block-size: 110%; */
+      position: absolute;
+      margin-block-start: -25%;
+      right: -17%;
+    }
+  }
+
+  @media (min-width: 1440px) {
+    /* background-position: 9% 75%; */
+  }
 `
 
 const Section = styled.section`
@@ -40,6 +80,24 @@ const Section = styled.section`
     font-weight: 400;
     color: hsl(233, 26%, 24%);
   }
+
+
+  @media (min-width: 768px) {
+
+  }
+
+  @media (min-width: 1024px) {
+    h1 {
+      font-size: 3.5rem;
+    }
+  }
+
+  @media (min-width: 1280px) {
+    max-inline-size: 50%;
+    margin: 0;
+    padding-inline-start: 10%;
+    text-align: left;
+  }
 `
 
 const Intro = () => {
@@ -50,7 +108,7 @@ const Intro = () => {
       </Figure>
       <Section>
         <h1>Next generation digital banking</h1>
-        <P> Take your financial life online. Your Easybank account will be a one-stop-shop 
+        <P className='intro'> Take your financial life online. Your Easybank account will be a one-stop-shop 
     for spending, saving, budgeting, investing, and much more.
         </P>
        <Btn>

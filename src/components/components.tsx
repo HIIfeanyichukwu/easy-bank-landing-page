@@ -18,6 +18,22 @@ const Btn = styled.button`
             filter: brightness(110%);
         }
     }
+
+    @media (min-width: 1024px) {
+        font-size: 1.2rem;
+
+        &.footer {
+            margin: 0;
+            display: inline-block;
+            inline-size: 200px;
+            justify-self: end;
+            margin-inline-start: auto;
+        }
+    }
+
+    @media (min-width: 1280px) {
+        margin: 0;
+    }
 `
 
 export const H2 = styled.h2`
@@ -28,6 +44,14 @@ export const H2 = styled.h2`
     margin-block-end: 1.5rem;
     text-align: center;
 
+    @media (min-width: 1024px) {
+        font-size: 2.5rem;
+    }
+
+    @media (min-width: 1280px) {
+        text-align: left;
+    }
+
     
 `
 
@@ -37,6 +61,10 @@ export const H3 = styled.h3`
     line-height: 1.3;
     font-weight: 400;
     font-size: 1.5rem;
+
+    @media (min-width: 1024px) {
+        font-size: 2rem;
+    }
 `
 
 export const P = styled.p`
@@ -49,6 +77,20 @@ export const P = styled.p`
 
     &.ph3 {
         padding-inline: 0;
+    }
+
+    @media (min-width: 1024px) {
+        font-size: 1.2rem;
+    }
+
+    @media (min-width: 1280px) {
+        &.intro, &.mid {
+            padding-inline: 0;
+        }
+        &.mid {
+            text-align: left;
+            inline-size: 50%;
+        }
     }
 
 
