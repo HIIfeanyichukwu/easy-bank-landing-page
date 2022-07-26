@@ -18,8 +18,12 @@ const Container = styled.div`
 
  }
 
- @media (min-width: 1440px) {
+ @media (min-width: 1300px) {
   padding-block: 7rem 7rem;
+ }
+
+ @media (min-width: 1440px) {
+  padding-block: 8rem 8rem;
  }
   
 `
@@ -56,7 +60,6 @@ const Figure = styled.figure`
 
     img {
       inline-size: 100%;
-      /* block-size: 110%; */
       position: absolute;
       margin-block-start: -25%;
       right: -17%;

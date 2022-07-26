@@ -66,7 +66,7 @@ const Mid = () => {
                         Online Banking
                     </H3>
 
-                    <P className='ph3'>
+                    <P className='ph3 '>
                         Our modern web and mobile applications allow you to keep track of your finances wherever you are in the world.
                     </P>
                 </Article>
@@ -78,7 +78,7 @@ const Mid = () => {
                         Simple Budgeting
                     </H3>
 
-                    <P className='ph3'>
+                    <P className='ph3 '>
                         See exactly where your money goes each month. Receive notifications when you're close to your hitting limits.
                     </P>
                 </Article>
@@ -90,7 +90,7 @@ const Mid = () => {
                         Fast Onboarding
                     </H3>
 
-                    <P className='ph3'>
+                    <P className='ph3 '>
                         We don't do branches. Open your account in minutes online and start taking control of your finances right away.
                     </P>
                 </Article>

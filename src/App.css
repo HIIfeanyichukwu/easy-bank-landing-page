@@ -1,6 +1,8 @@
 .App {
   min-block-size: 100vh;
   inline-size: 100%;
+  max-inline-size: 1440px;
+  margin: 0 auto;
   background-color: hsl(0, 0%, 98%);
 }
 

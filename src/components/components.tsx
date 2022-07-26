@@ -65,6 +65,10 @@ export const H3 = styled.h3`
     @media (min-width: 1024px) {
         font-size: 2rem;
     }
+
+    @media (min-width: 1300px) {
+        font-size: 1.4rem;
+    }
 `
 
 export const P = styled.p`
@@ -91,6 +95,10 @@ export const P = styled.p`
             text-align: left;
             inline-size: 50%;
         }
+    }
+
+    @media (min-width: 1300px) {
+       font-size: 1rem;
     }
 
 
