@@ -29,7 +29,7 @@ const Nav = styled.nav`
   flex-basis: 50%;
   display: flex;
   align-items: center;
-  justify-content: end;
+  justify-content: flex-end;
   padding-block: 1.5rem;
   
   @media (min-width: 768px) {
@@ -49,12 +49,14 @@ const Nav = styled.nav`
     margin-block-start: 6.5rem;
     padding-block: 1.5rem;
     border-radius: 12px;
-    /* display: none; */
     opacity: 0;
     z-index: -1;
     visibility: hidden;
     line-height: 2;
     inline-size: 100%;
+    margin-inline: auto;
+    left: 1px;
+    right: 1px;
     top: 0;
     color: hsl(233, 8%, 62%);
     transition: all .2s;
